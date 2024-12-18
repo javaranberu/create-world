@@ -237,6 +237,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "net.kwxxw.yama-stream": {
+      "version": "file:net.kwxxw.yama-stream",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,

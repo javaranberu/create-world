@@ -261,3 +261,1966 @@ Received Import Request.
 Start importing Assets/GameObject.prefab using Guid(a735be25f4344ff4c9902e23c1d1c1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37ac3105446e8f332e56c463bc33913') in 4.205802 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 4395
+========================================================================
+Received Import Request.
+  Time since last request: 1934.861663 seconds.
+  path: Packages/com.unity.ai.navigation/package.json
+  artifactKey: Guid(fbee67e09f48e4652bfa085460c895c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ai.navigation/package.json using Guid(fbee67e09f48e4652bfa085460c895c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d7159fc75d751bc7b491c814f1f437') in 0.001652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.050 seconds
+Refreshing native plugins compatible for Editor in 34.65 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UdonSharp.Updater.UdonSharpDataLocator:InitializeUdonSharpData () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:75)
+UdonSharp.Updater.UdonSharpDataLocator:get_DataPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:44)
+UdonSharp.Updater.UdonSharpLocator:get_SettingsPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpLocator.cs:49)
+UdonSharpEditor.UdonSharpSettings:GetSettings () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:87)
+UdonSharpEditor.UdonSharpSettings:GetScannerBlacklist () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:160)
+UdonSharpEditor.UdonSharpSettings:FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1<string>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:182)
+UdonSharp.Compiler.CompilationContext:GetAllFilteredSourcePaths (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:212)
+UdonSharp.Compiler.CompilationContext:GetAllFilteredScripts (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:228)
+UdonSharp.UdonSharpProgramAsset:IsAnyScriptDirty () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:256)
+UdonSharp.UdonSharpProgramAsset:CompileAllCsPrograms (bool,bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:292)
+UdonSharpEditor.UdonSharpEditorUtility:UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1<VRC.Udon.UdonBehaviour>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorUtility.cs:650)
+UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1694)
+UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs line 75]
+
+[<color=#FF00FF>UdonSharp</color>] Hit exception while attempting to upgrade scene behaviours: UnityEngine.UnityException: Creating asset at path Assets/UdonSharp/UdonSharpDataLocator.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UdonSharp.Updater.UdonSharpDataLocator.InitializeUdonSharpData () [0x0005d] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:75 
+  at UdonSharp.Updater.UdonSharpDataLocator.get_DataPath () [0x00065] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:44 
+  at UdonSharp.Updater.UdonSharpLocator.get_SettingsPath () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpLocator.cs:49 
+  at UdonSharpEditor.UdonSharpSettings.GetSettings () [0x00012] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:87 
+  at UdonSharpEditor.UdonSharpSettings.GetScannerBlacklist () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:160 
+  at UdonSharpEditor.UdonSharpSettings.FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1[T] paths) [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:182 
+  at UdonSharp.Compiler.CompilationContext.GetAllFilteredSourcePaths (System.Boolean isEditorBuild) [0x0006a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:212 
+  at UdonSharp.Compiler.CompilationContext.GetAllFilteredScripts (System.Boolean isEditorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:228 
+  at UdonSharp.UdonSharpProgramAsset.IsAnyScriptDirty () [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:256 
+  at UdonSharp.UdonSharpProgramAsset.CompileAllCsPrograms (System.Boolean forceCompile, System.Boolean editorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:292 
+  at UdonSharpEditor.UdonSharpEditorUtility.UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1[T] behaviours) [0x0001a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorUtility.cs:650 
+  at UdonSharpEditor.UdonSharpEditorManager.RunAllUpgrades () [0x0001c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorManager.cs:1694 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UdonSharp.UdonSharpUtils:LogError (object) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs:324)
+UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1698)
+UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+(Filename: ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs Line: 324)
+
+- Finished resetting the current domain, in  6.210 seconds
+Domain Reload Profiling: 7256ms
+	BeginReloadAssembly (324ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (132ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (617ms)
+		LoadAssemblies (699ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (6211ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4060ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (2983ms)
+			ProcessInitializeOnLoadMethodAttributes (947ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 46.35 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.31 ms.
+Unloading 3484 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 170 unused Assets / (12.1 MB). Loaded Objects now: 4184.
+Memory consumption went from 191.2 MB to 179.0 MB.
+Total: 32.167200 ms (FindLiveObjects: 0.568200 ms CreateObjectMapping: 0.362000 ms MarkObjects: 24.193100 ms  DeleteObjects: 7.040700 ms)
+
+Prepare: number of updated asset objects reloaded= 21
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 34.86 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (12.1 MB). Loaded Objects now: 4182.
+Memory consumption went from 137.6 MB to 125.5 MB.
+Total: 82.629100 ms (FindLiveObjects: 0.339600 ms CreateObjectMapping: 0.111300 ms MarkObjects: 76.880200 ms  DeleteObjects: 5.295900 ms)
+
+Prepare: number of updated asset objects reloaded= 5
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 35.87 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (12.0 MB). Loaded Objects now: 4184.
+Memory consumption went from 137.1 MB to 125.1 MB.
+Total: 80.202800 ms (FindLiveObjects: 0.328500 ms CreateObjectMapping: 0.110100 ms MarkObjects: 74.605900 ms  DeleteObjects: 5.156500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 31.24 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.24 ms.
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (12.1 MB). Loaded Objects now: 4184.
+Memory consumption went from 137.1 MB to 125.1 MB.
+Total: 78.348000 ms (FindLiveObjects: 0.316100 ms CreateObjectMapping: 0.088000 ms MarkObjects: 70.831700 ms  DeleteObjects: 7.110900 ms)
+
+Prepare: number of updated asset objects reloaded= 19
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 33.15 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (12.2 MB). Loaded Objects now: 4184.
+Memory consumption went from 137.2 MB to 125.1 MB.
+Total: 75.402800 ms (FindLiveObjects: 0.323800 ms CreateObjectMapping: 0.092400 ms MarkObjects: 68.434100 ms  DeleteObjects: 6.551000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 48.02 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (12.1 MB). Loaded Objects now: 4184.
+Memory consumption went from 137.2 MB to 125.1 MB.
+Total: 101.834900 ms (FindLiveObjects: 0.361800 ms CreateObjectMapping: 0.104100 ms MarkObjects: 91.529800 ms  DeleteObjects: 9.836800 ms)
+
+Prepare: number of updated asset objects reloaded= 19
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 55.16 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.31 ms.
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (12.1 MB). Loaded Objects now: 4184.
+Memory consumption went from 137.2 MB to 125.1 MB.
+Total: 100.401900 ms (FindLiveObjects: 0.571600 ms CreateObjectMapping: 0.289800 ms MarkObjects: 91.296700 ms  DeleteObjects: 8.242100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2544.827355 seconds.
+  path: Assets/GameObject.prefab
+  artifactKey: Guid(a735be25f4344ff4c9902e23c1d1c1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObject.prefab using Guid(a735be25f4344ff4c9902e23c1d1c1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af18db2498b6c3e7dcdfeb661db64aee') in 5.986423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4624
+========================================================================
+Received Import Request.
+  Time since last request: 9.116628 seconds.
+  path: Assets/bed.fbx
+  artifactKey: Guid(2d1c7b011f2c8b5469ac29d816b38e2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/bed.fbx using Guid(2d1c7b011f2c8b5469ac29d816b38e2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9f78b12e6dc8f411b413a72ef266b8d8') in 0.206752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/QvPen/Material/Ink_PC.mat
+  artifactKey: Guid(6b64136272204b8458c4bd55be9f97cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Material/Ink_PC.mat using Guid(6b64136272204b8458c4bd55be9f97cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '35ea7ff6dcd68aad7b1676a9b6efc3b8') in 0.018127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SerializedUdonPrograms/566cc00e27d5822449529a3785eae366.asset
+  artifactKey: Guid(510b12088dd12ed4688a8fdef4880505) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/566cc00e27d5822449529a3785eae366.asset using Guid(510b12088dd12ed4688a8fdef4880505) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '386b65187d756b1d8e1f048613af5f2d') in 0.020797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SerializedUdonPrograms/b35f97b1813cb064d852c92d1c5c1751.asset
+  artifactKey: Guid(26285bb5b5d57c749adc7cc7a0e79ff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/b35f97b1813cb064d852c92d1c5c1751.asset using Guid(26285bb5b5d57c749adc7cc7a0e79ff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '993e3cefd00873dde21e78fbb84a7d83') in 0.018085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SerializedUdonPrograms/8ce6e1260255f82459a7a0ae9a2433e8.asset
+  artifactKey: Guid(9783b6d7086c2d641865007488d94452) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/8ce6e1260255f82459a7a0ae9a2433e8.asset using Guid(9783b6d7086c2d641865007488d94452) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '341099e0aea906acc453a041d6d76a60') in 0.020170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/QvPen/QvPen(grad).prefab
+  artifactKey: Guid(5bca603d49548cc4d9a3329a36716749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/QvPen(grad).prefab using Guid(5bca603d49548cc4d9a3329a36716749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '30066c0194016903c69dad282c6fe7dc') in 0.169467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3460
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/QvPen/QvPen.prefab
+  artifactKey: Guid(2674f268860583949b53b63df24489ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/QvPen.prefab using Guid(2674f268860583949b53b63df24489ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b0a1b6f6781c71f2595c53d7639aea0e') in 0.087227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1811
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SerializedUdonPrograms/a668a66cfaffd8c4bae70ef30aaddae6.asset
+  artifactKey: Guid(178b283f864826f44b1b06afca883f2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/a668a66cfaffd8c4bae70ef30aaddae6.asset using Guid(178b283f864826f44b1b06afca883f2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'abad0b1768753f01d9e0a4f4d9decaae') in 0.025566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/マテリアル/New Material.mat
+  artifactKey: Guid(54e080d79ed32a145b355540a6fe242f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/マテリアル/New Material.mat using Guid(54e080d79ed32a145b355540a6fe242f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '88de91ea0921caaec0f123b322553c46') in 0.060262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Scenes/VRCDefaultWorldScene/GridFloor_udon.png
+  artifactKey: Guid(fcdb0c7d938110941963244926e31a8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/VRCDefaultWorldScene/GridFloor_udon.png using Guid(fcdb0c7d938110941963244926e31a8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e58abd6e2507433ef36b778dda89518f') in 0.087742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SerializedUdonPrograms/4eb7aa2be7d95324ea25c03bf1cab34f.asset
+  artifactKey: Guid(13f1c1fdec8cf444f94ea10bbebeda37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/4eb7aa2be7d95324ea25c03bf1cab34f.asset using Guid(13f1c1fdec8cf444f94ea10bbebeda37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a130e834111b6de07b5497596819779') in 0.020881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/SerializedUdonPrograms/62d157ce28de1064b8095c8cd096e77c.asset
+  artifactKey: Guid(55b2f740afe6f424598a72e8ca0311cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/62d157ce28de1064b8095c8cd096e77c.asset using Guid(55b2f740afe6f424598a72e8ca0311cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9329c817f960330072ee05d590690dda') in 0.022622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SerializedUdonPrograms/8175c20f542fbaf40811f752bfbf8759.asset
+  artifactKey: Guid(27fae8540b923e048b71e8b858d37a37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/8175c20f542fbaf40811f752bfbf8759.asset using Guid(27fae8540b923e048b71e8b858d37a37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a75329b480f27357b9adfc91c573175') in 0.020979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SerializedUdonPrograms/d6c44a44202549f4ba7e909cd3836ac4.asset
+  artifactKey: Guid(0c2e700a33297d040bad9830aa1f9e3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/d6c44a44202549f4ba7e909cd3836ac4.asset using Guid(0c2e700a33297d040bad9830aa1f9e3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7dd5a7d9be4a919fd353c91c5d1c0b6d') in 0.027325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SerializedUdonPrograms/acde556ae74050e48a1de87475a30cff.asset
+  artifactKey: Guid(afbc37367763a414ab5e0296bd143bc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/acde556ae74050e48a1de87475a30cff.asset using Guid(afbc37367763a414ab5e0296bd143bc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e4372bc0a5b545cc56cced82de29084d') in 0.022855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SerializedUdonPrograms/9e8ff5f6b1c04714982c48f0b7b6d89b.asset
+  artifactKey: Guid(9683d2df87d3720489c6f8ac5ea6e71f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/9e8ff5f6b1c04714982c48f0b7b6d89b.asset using Guid(9683d2df87d3720489c6f8ac5ea6e71f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'facc4e85ffbf8329bc7fada05d9b6f08') in 0.021905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/QvPen/QvPen.unity
+  artifactKey: Guid(7e55385556227aa499dbb95eb26dbc66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/QvPen.unity using Guid(7e55385556227aa499dbb95eb26dbc66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3cadf7182c1e3e111bced9fe73d9c4fd') in 0.015944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/マテリアル/ec698c79-224f-46c9-845a-f5010e9ca872 1.jpg
+  artifactKey: Guid(eb6d9e3a3ef2bdd478697ec3115e623c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/マテリアル/ec698c79-224f-46c9-845a-f5010e9ca872 1.jpg using Guid(eb6d9e3a3ef2bdd478697ec3115e623c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd55f7624ef26ba56fae9c3ef4cf335e0') in 0.030092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SerializedUdonPrograms/b5280742086799a4c8c0a14e90cd913d.asset
+  artifactKey: Guid(d0b62baef132b114a9f91aa4f02177ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/b5280742086799a4c8c0a14e90cd913d.asset using Guid(d0b62baef132b114a9f91aa4f02177ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cde23032547bfaffb3b45dfd626feb92') in 0.019022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SerializedUdonPrograms/111765fc3c115894590e1ac5449b5925.asset
+  artifactKey: Guid(ecf0cab730874ae489c27c4264d1225a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/111765fc3c115894590e1ac5449b5925.asset using Guid(ecf0cab730874ae489c27c4264d1225a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0d6e9512abb88bec3085ffdf765b1063') in 0.018027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SerializedUdonPrograms/da113172081f2ba40b9cc46674a846d0.asset
+  artifactKey: Guid(da8f7eb73900da34c9f7a5a6fe7c052c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/da113172081f2ba40b9cc46674a846d0.asset using Guid(da8f7eb73900da34c9f7a5a6fe7c052c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9f52ccbf7db44f02e3da7f5be344521e') in 0.019893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SerializedUdonPrograms/b08d24dc47cebd8449294bbab86856c2.asset
+  artifactKey: Guid(5a07a5513cf5b974a8e8b1d44552c203) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/b08d24dc47cebd8449294bbab86856c2.asset using Guid(5a07a5513cf5b974a8e8b1d44552c203) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '037a2ead8b84baedc73c08a43d996374') in 0.016347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SerializedUdonPrograms/f653825ba517a544baefc9bffbb0d5af.asset
+  artifactKey: Guid(7ae6604e4c6538048b7d08ed13fc42a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/f653825ba517a544baefc9bffbb0d5af.asset using Guid(7ae6604e4c6538048b7d08ed13fc42a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4f9f161f23367c4fc22d2b193d8c2ae6') in 0.024601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/QvPen/Prefab/EraserManager.prefab
+  artifactKey: Guid(d68f67d369d908d429c189ca9fe652a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Prefab/EraserManager.prefab using Guid(d68f67d369d908d429c189ca9fe652a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '709515088119b31e212a9f11744b88f0') in 0.080860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/VRCDefaultWorldScene/SampleAssetsSet_V1_phong1_MetallicSmoothness.png
+  artifactKey: Guid(b65eab005da6b8d48a6f992bd7136244) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/VRCDefaultWorldScene/SampleAssetsSet_V1_phong1_MetallicSmoothness.png using Guid(b65eab005da6b8d48a6f992bd7136244) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f4c858150340432b3e7345c853165a4e') in 0.029786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/VRCDefaultWorldScene/MirrorReflection.mat
+  artifactKey: Guid(19f4e72d24f09254db580c8f474f482f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/VRCDefaultWorldScene/MirrorReflection.mat using Guid(19f4e72d24f09254db580c8f474f482f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e144cc2dc97ceb573c3977d8d93c50d') in 0.019684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/VRCDefaultWorldScene/SKY_UdonLab.mat
+  artifactKey: Guid(19525de6b7a23da49a27791b1418b883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/VRCDefaultWorldScene/SKY_UdonLab.mat using Guid(19525de6b7a23da49a27791b1418b883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '88ca887f22f4cc9bd86f5b3709ee0ca5') in 0.024104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UdonSharp/UtilityScripts/PlayerModSetter.asset
+  artifactKey: Guid(667c46fd2864a124ea921d98d4914fe5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UdonSharp/UtilityScripts/PlayerModSetter.asset using Guid(667c46fd2864a124ea921d98d4914fe5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76a7bcb730d418d62a987e6de79a64f1') in 0.021109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UdonSharp/UtilityScripts/ExampleUtilityTemplate.txt
+  artifactKey: Guid(8b953b0aef25b204eb36afc5968f41b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UdonSharp/UtilityScripts/ExampleUtilityTemplate.txt using Guid(8b953b0aef25b204eb36afc5968f41b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e9f07d7c984aa831e2034280772ad461') in 0.025707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/マテリアル/ec698c79-224f-46c9-845a-f5010e9ca872.jpg
+  artifactKey: Guid(3c4c8ef352d71454a82c581457549859) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/マテリアル/ec698c79-224f-46c9-845a-f5010e9ca872.jpg using Guid(3c4c8ef352d71454a82c581457549859) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '30be0e2429cc41fa16e4caa3dd084790') in 0.042861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/QvPen/version.txt
+  artifactKey: Guid(5b3d8961b3eb9c748b9157f0f6b0d435) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/version.txt using Guid(5b3d8961b3eb9c748b9157f0f6b0d435) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a7e4de25d1ea1682a52731611342a05') in 0.019427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SerializedUdonPrograms/41a9d71c23a31244f8caf004675494a8.asset
+  artifactKey: Guid(c9e8a1be5070e7843bbaf98ae7ae05de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/41a9d71c23a31244f8caf004675494a8.asset using Guid(c9e8a1be5070e7843bbaf98ae7ae05de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '705b002d5df28fd024d04db4806992db') in 0.017226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/QvPen/Material/wood.mat
+  artifactKey: Guid(c2af845bdfb561149b08ba13167ff040) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Material/wood.mat using Guid(c2af845bdfb561149b08ba13167ff040) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd071ab8e87c7514128097d88ba568b7f') in 0.018132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SerializedUdonPrograms/2e9b2a0b7ecb7eb4fb09649975a7ee35.asset
+  artifactKey: Guid(ec4c47541cd68af42b39166492993366) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/2e9b2a0b7ecb7eb4fb09649975a7ee35.asset using Guid(ec4c47541cd68af42b39166492993366) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5666e1b40c4b9d45c5c42766f6326a46') in 0.019930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UdonSharp/UdonSharpDataLocator.asset
+  artifactKey: Guid(900a3ff84134bfd4b9157d0366f9288a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UdonSharp/UdonSharpDataLocator.asset using Guid(900a3ff84134bfd4b9157d0366f9288a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8d284e896e61c4981765d22b6dc7399') in 0.018247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SerializedUdonPrograms/33324f447d661da40b534c9fa93c0ec2.asset
+  artifactKey: Guid(8c1d0533f41b55348b1d0f84baaf0097) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/33324f447d661da40b534c9fa93c0ec2.asset using Guid(8c1d0533f41b55348b1d0f84baaf0097) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e4564ce2332951cde5ed6075a3cbd0f4') in 0.019712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QvPen/QvPen/LightingData.asset
+  artifactKey: Guid(12504f9e3a3ba674d964139443daf829) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/QvPen/LightingData.asset using Guid(12504f9e3a3ba674d964139443daf829) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f448f2ac013a2a55c5075c26578467ec') in 0.036032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+  artifactKey: Guid(1a3734f5297e4014f82fec862b94e995) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset using Guid(1a3734f5297e4014f82fec862b94e995) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '544e5420145e4c96d8737332fe43dc9b') in 0.019144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/QvPen/Mesh/qv_pen.fbx
+  artifactKey: Guid(b243b844d7a80a746b855eca5b0582ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Mesh/qv_pen.fbx using Guid(b243b844d7a80a746b855eca5b0582ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f898e17697aed3314e56c2ca33af227a') in 0.072748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QvPen/Texture/grass.png
+  artifactKey: Guid(7d3e8fb665444374b9e50b3456a0f1ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Texture/grass.png using Guid(7d3e8fb665444374b9e50b3456a0f1ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a02c11b3c15711750b5b34ece82bfc8b') in 0.043903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QvPen/Material/pointer/pointer_use.mat
+  artifactKey: Guid(62da9edddc7701d4ab4956aceacbcd96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Material/pointer/pointer_use.mat using Guid(62da9edddc7701d4ab4956aceacbcd96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab6cc8c1f7348349d5cca045f0f4ae85') in 0.029566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/QvPen/Material/Pen/color (15).mat
+  artifactKey: Guid(1217a62b06dedf14a817c2fb683b44ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Material/Pen/color (15).mat using Guid(1217a62b06dedf14a817c2fb683b44ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f2de081f35f85d55c7adfb80e539f22') in 0.028109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/QvPen/Material/Pen/color (7).mat
+  artifactKey: Guid(9db9f48f3ee803d448488d4368a140f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Material/Pen/color (7).mat using Guid(9db9f48f3ee803d448488d4368a140f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6bb3feeb14b7722c353f136bcc2cfca1') in 0.027065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/QvPen/Material/Pen/color (14).mat
+  artifactKey: Guid(5b91c5c74862dba4d9fc2e8ae3e07b70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Material/Pen/color (14).mat using Guid(5b91c5c74862dba4d9fc2e8ae3e07b70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '857df1a5ca38bc0e2973ffc2b1571f50') in 0.044204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/QvPen/Material/Pen/color (6).mat
+  artifactKey: Guid(88aa935393607b6409baa45499f5156b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Material/Pen/color (6).mat using Guid(88aa935393607b6409baa45499f5156b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cffbf13845875ce1a76dd6d789ffd703') in 0.022726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/QvPen/Material/Pen/color (4).mat
+  artifactKey: Guid(dd75a5d3bd47a0c489c0fd71aff39ede) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Material/Pen/color (4).mat using Guid(dd75a5d3bd47a0c489c0fd71aff39ede) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '221d78d265929d3b5969860b9a34c8dc') in 0.023262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/QvPen/Material/Pen/color (12).mat
+  artifactKey: Guid(e01134920adbcf549ac7f52ceeb583a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Material/Pen/color (12).mat using Guid(e01134920adbcf549ac7f52ceeb583a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a5abc08303eac0974f4cf6ab6b303c2c') in 0.024834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QvPen/Runtime/UdonAsset/QvPen_Eraser.asset
+  artifactKey: Guid(80df79815ac3b494592c5da022afd2cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonAsset/QvPen_Eraser.asset using Guid(80df79815ac3b494592c5da022afd2cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '25dbb46b956acf3f4ec55bde72eb254c') in 0.031908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SerializedUdonPrograms/0ddc94c89e1c19e49945271f77ca5cc2.asset
+  artifactKey: Guid(dbd6b411bf049ab4e9ceef739d59f470) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/0ddc94c89e1c19e49945271f77ca5cc2.asset using Guid(dbd6b411bf049ab4e9ceef739d59f470) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '83425bcd03251ad16f0c0951599e1fa2') in 0.024889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/QvPen/Texture/rainbow.png
+  artifactKey: Guid(6f83de0656dded943a5f7f3b396fbb8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Texture/rainbow.png using Guid(6f83de0656dded943a5f7f3b396fbb8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c065fbb9613c1f5a8d79d3b195cd7e5c') in 0.036912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SerializedUdonPrograms/470765fc3c115894590e1ac5449b5925.asset
+  artifactKey: Guid(b52ee0e343670c04494aa5f44b58bd24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/470765fc3c115894590e1ac5449b5925.asset using Guid(b52ee0e343670c04494aa5f44b58bd24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6393ef67d76a551f184453e20d74eefa') in 0.030629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SerializedUdonPrograms/5463afdb73b505649b857341d262468a.asset
+  artifactKey: Guid(a00a7246fb296c645a5d1d89903f3c3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/5463afdb73b505649b857341d262468a.asset using Guid(a00a7246fb296c645a5d1d89903f3c3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6eb4f51313e0cda0c081fdfc624be675') in 0.015880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SerializedUdonPrograms/b42eae3a19d2e89448e47dd9c7f5d0e2.asset
+  artifactKey: Guid(7ffce070b48af4e48b5f1288ebe217b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/b42eae3a19d2e89448e47dd9c7f5d0e2.asset using Guid(7ffce070b48af4e48b5f1288ebe217b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f93e358fd8302d259d48ba8be93f913') in 0.019922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SerializedUdonPrograms/dfcb9d6121fc4084e97b5303b0054618.asset
+  artifactKey: Guid(d40ef76f1d643e34f800ed5a2dd6dc42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/dfcb9d6121fc4084e97b5303b0054618.asset using Guid(d40ef76f1d643e34f800ed5a2dd6dc42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a17c56e3d84cadca827b9a517cacc274') in 0.017219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UdonSharp/UtilityScripts/WorldAudioSettings.asset
+  artifactKey: Guid(fa52d8b703fd906459112715b1ef1f3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UdonSharp/UtilityScripts/WorldAudioSettings.asset using Guid(fa52d8b703fd906459112715b1ef1f3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd5c55e816aa1565e5c2a88b0bb8189db') in 0.019580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/QvPen/Runtime/UdonAsset/QvPen_LateSync.asset
+  artifactKey: Guid(5c053fc3db491b94a84a5902b9f6ef5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonAsset/QvPen_LateSync.asset using Guid(5c053fc3db491b94a84a5902b9f6ef5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dd706ffd3e5d280981f5f1e770211ef5') in 0.019907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Materials/color (1).mat
+  artifactKey: Guid(478a6a2ece0b47f47af88a5ff8fc91b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Materials/color (1).mat using Guid(478a6a2ece0b47f47af88a5ff8fc91b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '56c7815c1d5cea1bc448e274c628d406') in 0.021397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/QvPen/Runtime/UdonScript/QvPen_LateSync.cs
+  artifactKey: Guid(3074874455b8fcd47a3a04704254da3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonScript/QvPen_LateSync.cs using Guid(3074874455b8fcd47a3a04704254da3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a877e288b9e3ab6270be628f1973cd32') in 0.018269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Materials/color (0).mat
+  artifactKey: Guid(b168ded37648bb6409c1d9f9a8ef742e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Materials/color (0).mat using Guid(b168ded37648bb6409c1d9f9a8ef742e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce9b967ae07aecb017856f0cd65765fe') in 0.016426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QvPen/Runtime/UdonScript/QvPen_Pen.cs
+  artifactKey: Guid(5a5189ec6a6893c4da68727369360ce6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonScript/QvPen_Pen.cs using Guid(5a5189ec6a6893c4da68727369360ce6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '379abcdfaabbbe60bf624c93e6aa2306') in 0.018500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UdonSharp/UtilityScripts/Synced/MasterToggleObject.asset
+  artifactKey: Guid(a3b924aa5d416d94c86ddd019ccb8441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UdonSharp/UtilityScripts/Synced/MasterToggleObject.asset using Guid(a3b924aa5d416d94c86ddd019ccb8441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '575de02cad747ef702d4f433a097bef0') in 0.020959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SerializedUdonPrograms/b7ea7637776f8f0479898c7532e9dd62.asset
+  artifactKey: Guid(9ab9ce8cd2f9e714dbcd993ddc3164e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/b7ea7637776f8f0479898c7532e9dd62.asset using Guid(9ab9ce8cd2f9e714dbcd993ddc3164e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e859d1680e49975a64390ab6a518e83') in 0.024172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/SerializedUdonPrograms/953e2e6278cc9314f9f2913d9bc25309.asset
+  artifactKey: Guid(206105806889b984ab854eae67d079a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/953e2e6278cc9314f9f2913d9bc25309.asset using Guid(206105806889b984ab854eae67d079a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd405612213d2d7c4b526e80fd3995307') in 0.030375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/QvPen/Material/Ink_Quest.mat
+  artifactKey: Guid(e52e94d0a6629e14c916b1fa6580c2bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Material/Ink_Quest.mat using Guid(e52e94d0a6629e14c916b1fa6580c2bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c64aa132bbe6dc053eabc345b1b0976c') in 0.079931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/QvPen/Runtime/UdonAsset/QvPen_Settings.asset
+  artifactKey: Guid(567020c04eb1f4b4ea28e29eded29ee3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonAsset/QvPen_Settings.asset using Guid(567020c04eb1f4b4ea28e29eded29ee3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '79b09cec597050f153677b72bffc58bc') in 0.022337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SerializedUdonPrograms/0425897519794e7478e82ab39da26473.asset
+  artifactKey: Guid(f3ef28b387dba3a48b4030578cca217b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/0425897519794e7478e82ab39da26473.asset using Guid(f3ef28b387dba3a48b4030578cca217b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f9aea487eddb969a06503edd196b59c5') in 0.018671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AVProVideo/Runtime/_AVProVideo.Runtime.asmdef
+  artifactKey: Guid(3ca842002c51d0a43b73e45298809a13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AVProVideo/Runtime/_AVProVideo.Runtime.asmdef using Guid(3ca842002c51d0a43b73e45298809a13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '80adcc82b2377472d7e5244861a4b2c5') in 0.031057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/QvPen/Material/Pen/color (8).mat
+  artifactKey: Guid(87529c80faca0ef4a881efba652815f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Material/Pen/color (8).mat using Guid(87529c80faca0ef4a881efba652815f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac53d3941c74251693ae91f62c8174a1') in 0.021173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SerializedUdonPrograms/7b4f4d33808345d4ca10c7267df9cc79.asset
+  artifactKey: Guid(2f92f3f4ac01fdf48b088a38bc08c729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/7b4f4d33808345d4ca10c7267df9cc79.asset using Guid(2f92f3f4ac01fdf48b088a38bc08c729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8f704d3668791e1b240c84efbeb01d3') in 0.018880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SerializedUdonPrograms/0cdbe440b5093a34ab779ba6bdf1ec95.asset
+  artifactKey: Guid(677ca960173a9d6408854da86654d17d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/0cdbe440b5093a34ab779ba6bdf1ec95.asset using Guid(677ca960173a9d6408854da86654d17d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb2d6db41a34d5e6dff1a37df79b2e10') in 0.017973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/VRCDefaultWorldScene/SampleAssetsSet_V1_phong1_AlbedoTransparency.png
+  artifactKey: Guid(9ac5ddfa25f4379439646eada487e3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/VRCDefaultWorldScene/SampleAssetsSet_V1_phong1_AlbedoTransparency.png using Guid(9ac5ddfa25f4379439646eada487e3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '512f51571782b1bd236013c3840b1c21') in 0.032384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/VRCDefaultWorldScene/SampleAssetsSet_V1_phong1_Normal.png
+  artifactKey: Guid(7aabfe622a25d9b41901e020dc3f3b54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/VRCDefaultWorldScene/SampleAssetsSet_V1_phong1_Normal.png using Guid(7aabfe622a25d9b41901e020dc3f3b54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '756a6228cab70562e9f7068b41fc1d0f') in 0.025209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SerializedUdonPrograms/1acedb947e4c9dc4d8f749557d611c1e.asset
+  artifactKey: Guid(a32c40e2f7958e6469ba537e2f435c6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/1acedb947e4c9dc4d8f749557d611c1e.asset using Guid(a32c40e2f7958e6469ba537e2f435c6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b251091d456e9121d6369d4d22e3015c') in 0.020067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/1064dc79ec16c944793e0bfc45718c46.asset
+  artifactKey: Guid(649aba759d65a2c409203d5f2c6af42f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/1064dc79ec16c944793e0bfc45718c46.asset using Guid(649aba759d65a2c409203d5f2c6af42f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'afe7dd9cb1999974af27480588725965') in 0.018650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Materials/color (5).mat
+  artifactKey: Guid(ba359484380bbe245b6dd1e5441ea7b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Materials/color (5).mat using Guid(ba359484380bbe245b6dd1e5441ea7b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b890045a0ccf454cccc82c20109f0725') in 0.019111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Materials/color (10).mat
+  artifactKey: Guid(0ae3dac33dc44e24eb32a0207d3f7b3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Materials/color (10).mat using Guid(0ae3dac33dc44e24eb32a0207d3f7b3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f208c7cf532024b8926e3f76dc8ef8ca') in 0.020418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Texture/マーキングペン_uv配置.png
+  artifactKey: Guid(c4ac5873ec4e29e4bad7ea2b8ee9f4c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Texture/マーキングペン_uv配置.png using Guid(c4ac5873ec4e29e4bad7ea2b8ee9f4c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '84690ec8a717142505af38b64fc471ea') in 0.044482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/567020c04eb1f4b4ea28e29eded29ee3.asset
+  artifactKey: Guid(293dd59985c1d6d489fba7861df8e327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/567020c04eb1f4b4ea28e29eded29ee3.asset using Guid(293dd59985c1d6d489fba7861df8e327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a5d696a1808fe000cdc90aeaec13a594') in 0.028203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Mesh/マーキングペン.fbx
+  artifactKey: Guid(2dcb1e44163bd4749a838a3e4f8421e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Mesh/マーキングペン.fbx using Guid(2dcb1e44163bd4749a838a3e4f8421e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6caed50969eb6609f99590798205a94c') in 0.077922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/8790eacaf133fc349970690de2dfa744.asset
+  artifactKey: Guid(f8ab0d1b83fcdba4dabdc835b5d01d14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/8790eacaf133fc349970690de2dfa744.asset using Guid(f8ab0d1b83fcdba4dabdc835b5d01d14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8e93d414bc3f17558f38413ad3a279f7') in 0.018745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/0133057ca1dddce45824d0aa942ebc3a.asset
+  artifactKey: Guid(8de78d8cac7936144962fb7e7e7960f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/0133057ca1dddce45824d0aa942ebc3a.asset using Guid(8de78d8cac7936144962fb7e7e7960f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '44d8723a0b9c694e556d1ce346706519') in 0.017575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Texture/導入方法.png
+  artifactKey: Guid(1abfaa4a3ca6a1c459ab484303f24a15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Texture/導入方法.png using Guid(1abfaa4a3ca6a1c459ab484303f24a15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fe53423d41c632610b4a5735b939697d') in 0.039583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/AVProVideo/Runtime/Scripts/Components/AudioOutput.cs
+  artifactKey: Guid(3b05a64a5de3f8546bf586f42e37b979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AVProVideo/Runtime/Scripts/Components/AudioOutput.cs using Guid(3b05a64a5de3f8546bf586f42e37b979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8532aaebe903c07661e7c8f962b9783f') in 0.018738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Texture/マーキングペン_UV.clip
+  artifactKey: Guid(48d39ca859cd4ed4cb393df7ef4b0f1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Texture/マーキングペン_UV.clip using Guid(48d39ca859cd4ed4cb393df7ef4b0f1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '54e71b93ba376088ebabfe11b3167c3d') in 0.015312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/QvPen/Material/Pen/color (2).mat
+  artifactKey: Guid(b3889ddf2a4bd9346a4843eb47e0acb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Material/Pen/color (2).mat using Guid(b3889ddf2a4bd9346a4843eb47e0acb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '09ecacd009ab698671426e3df500bc9d') in 0.021790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Texture/マーキングペン_カラー_uv配置.png
+  artifactKey: Guid(740099161e3184045812915249dfc89d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Texture/マーキングペン_カラー_uv配置.png using Guid(740099161e3184045812915249dfc89d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf3a3896c001e67be32ab438eff153ea') in 0.039209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SerializedUdonPrograms/771aad74830040442b95061a42f772c0.asset
+  artifactKey: Guid(d3f957dae887db44984ed73f2a0810b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/771aad74830040442b95061a42f772c0.asset using Guid(d3f957dae887db44984ed73f2a0810b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87fb840dbe8b69da36eafdc7f212b30f') in 0.018495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SerializedUdonPrograms/4715e20276be3b141a6a216230cab4e9.asset
+  artifactKey: Guid(b4317ccbc60abbe4885c22650583548a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/4715e20276be3b141a6a216230cab4e9.asset using Guid(b4317ccbc60abbe4885c22650583548a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '153849f766c4cc93928d200b980de5d9') in 0.017934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Materials/color (3).mat
+  artifactKey: Guid(433f710304271ff478e43834cc25d6d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Materials/color (3).mat using Guid(433f710304271ff478e43834cc25d6d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '53891ab14ad998dfc1682b4852d17254') in 0.021034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/QvPen/Runtime/UdonScript/World/QvPen_PlayerMods.cs
+  artifactKey: Guid(5b8bf628088e8e64ab92f8ac0ce959b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonScript/World/QvPen_PlayerMods.cs using Guid(5b8bf628088e8e64ab92f8ac0ce959b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1afd1def2e3945f5d4758ffd49d1b6de') in 0.017577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/QvPen/Runtime/UdonScript/UI/QvPen_ShowOrHideButton.cs
+  artifactKey: Guid(e320a98827f8119419829478e910c9ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonScript/UI/QvPen_ShowOrHideButton.cs using Guid(e320a98827f8119419829478e910c9ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '365968628b79f9368426db1b3d125680') in 0.018176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/QvPen/Material/Pen/color (5).mat
+  artifactKey: Guid(a393dafb2990e2c4fa0628ace4444efa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Material/Pen/color (5).mat using Guid(a393dafb2990e2c4fa0628ace4444efa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab040433d7b19c1f39f6b1ebeb1e812f') in 0.020777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SerializedUdonPrograms/4a72cd5e73d44e94a832b9fa2b41021d.asset
+  artifactKey: Guid(aa3b3e66efe616343b069ada9a1a4707) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/4a72cd5e73d44e94a832b9fa2b41021d.asset using Guid(aa3b3e66efe616343b069ada9a1a4707) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd400dd4fca9ef8486516c4515341912d') in 0.017631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/QvPen/Mesh/qv_eraser.fbx
+  artifactKey: Guid(bd83bee821a1a89488f004c9dc04b5b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Mesh/qv_eraser.fbx using Guid(bd83bee821a1a89488f004c9dc04b5b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dfbed71eb904189b1b0da11f9f866d90') in 0.027232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/QvPen/Material/Pen/color (1).mat
+  artifactKey: Guid(b24ed807dd7dc224baf5390f46738647) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Material/Pen/color (1).mat using Guid(b24ed807dd7dc224baf5390f46738647) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b6bb18d8248f404cfa1c1facec2bf704') in 0.020861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/QvPen/Material/Eraser/eraser_white.mat
+  artifactKey: Guid(4455a0149b18e614483058a1d4ace637) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Material/Eraser/eraser_white.mat using Guid(4455a0149b18e614483058a1d4ace637) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ba6053d3de17c9894a857d826fae8e84') in 0.018621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QvPen/Material/Eraser/eraser (0).mat
+  artifactKey: Guid(419ae9fed5372564c995339c60fd7ebf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Material/Eraser/eraser (0).mat using Guid(419ae9fed5372564c995339c60fd7ebf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de15421f349bd2a77486efc852e6f88d') in 0.018308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/QvPen/Material/pointer/reticle.mat
+  artifactKey: Guid(48f32ce8d7140f045a2c568df3a8d9bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Material/pointer/reticle.mat using Guid(48f32ce8d7140f045a2c568df3a8d9bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb71756e7a023e7d640d6c4ffd7f745c') in 0.018738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/QvPen/QvPen.asmdef
+  artifactKey: Guid(207f5b9649b111a41872013525689428) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/QvPen.asmdef using Guid(207f5b9649b111a41872013525689428) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed9106803fa1df68b698c0143d3d4ed9') in 0.015191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Texture/rainbow.png
+  artifactKey: Guid(b89282beb3e9f524ab62ba80e6281fef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Texture/rainbow.png using Guid(b89282beb3e9f524ab62ba80e6281fef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd9357ba574691f97d2e8e989840c7b4') in 0.028505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/VRCDefaultWorldScene.unity
+  artifactKey: Guid(a52eeaf3b71734f48aad85be5f366e15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/VRCDefaultWorldScene.unity using Guid(a52eeaf3b71734f48aad85be5f366e15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'da4dfd5c99b40688e033afc2d00dfe67') in 0.016234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/QvPen/Material/Pen/color (0).mat
+  artifactKey: Guid(51d72acecdb1ba249957953415f8e29b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Material/Pen/color (0).mat using Guid(51d72acecdb1ba249957953415f8e29b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '94a54b3f035bfe201d5dcb5428d6c047') in 0.018525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/SerializedUdonPrograms/8270e0cc07fd6e64bac140ed72458ab5.asset
+  artifactKey: Guid(089f3bd551dcc234d9c0eb9300d91f4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/8270e0cc07fd6e64bac140ed72458ab5.asset using Guid(089f3bd551dcc234d9c0eb9300d91f4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ab73ec15e7d582fbdd42cc38ef1a103') in 0.025844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/QvPen/Runtime/UdonScript/QvPen_EraserManager.cs
+  artifactKey: Guid(f7b1598b6e36958498183f3f6ea42716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonScript/QvPen_EraserManager.cs using Guid(f7b1598b6e36958498183f3f6ea42716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2bd416e1e69f65154888fb0ba4b8a44d') in 0.023860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UdonSharp/UtilityScripts/InteractToggle.cs
+  artifactKey: Guid(c145dd4792c31da4b83d542b11ca2b66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UdonSharp/UtilityScripts/InteractToggle.cs using Guid(c145dd4792c31da4b83d542b11ca2b66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9d0c43e0e3b1649a82fe278a79bb450b') in 0.023833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/QvPen/Prefab/PenManager.prefab
+  artifactKey: Guid(c055c7dd62f8a8044bf2a4f8666fa699) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Prefab/PenManager.prefab using Guid(c055c7dd62f8a8044bf2a4f8666fa699) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5cb9a86087d572e6c5a15ea17fafb4f') in 0.039436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 104
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/QvPen/Runtime/UdonAsset/QvPen_ClearAllButton.asset
+  artifactKey: Guid(80c0335f98d9b0f4da456ce13438c83c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonAsset/QvPen_ClearAllButton.asset using Guid(80c0335f98d9b0f4da456ce13438c83c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e50c7fa0672d577a547062a24ec6cec3') in 0.021971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QvPen/Runtime/UdonScript/QvPen_Eraser.cs
+  artifactKey: Guid(45edb8b52baee734dba212c77defb646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonScript/QvPen_Eraser.cs using Guid(45edb8b52baee734dba212c77defb646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '28bbd3f45a0fbc1e5599533c5c7c4b04') in 0.015687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UdonSharp/UtilityScripts/BoneFollower.cs
+  artifactKey: Guid(d1a6820e86752e14d8227ad846e6ab81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UdonSharp/UtilityScripts/BoneFollower.cs using Guid(d1a6820e86752e14d8227ad846e6ab81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6bc8cd7de6d3b0e30c845a8273a28905') in 0.019587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/80df79815ac3b494592c5da022afd2cf.asset
+  artifactKey: Guid(29925a6a6b005634883008ef9d333613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/80df79815ac3b494592c5da022afd2cf.asset using Guid(29925a6a6b005634883008ef9d333613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '55a19720f602af00c125912f39608eaa') in 0.016942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/0e392fac37a423e48980418023eb111f.asset
+  artifactKey: Guid(8fb6eb914fd1e984db90436d55aab47c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/0e392fac37a423e48980418023eb111f.asset using Guid(8fb6eb914fd1e984db90436d55aab47c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a659a74b9684e474a425a7405832422e') in 0.022080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000905 seconds.
+  path: Assets/SerializedUdonPrograms/b13a70617e66db945a50a1d87245e420.asset
+  artifactKey: Guid(4cc0fbc7b38da284aa1739ae2a39defb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/b13a70617e66db945a50a1d87245e420.asset using Guid(4cc0fbc7b38da284aa1739ae2a39defb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb0c12239daf5db0ebdc3ac12df086d5') in 0.022800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SerializedUdonPrograms/a3b924aa5d416d94c86ddd019ccb8441.asset
+  artifactKey: Guid(2ed5e120c8e9da442b287aa6bc5b98e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/a3b924aa5d416d94c86ddd019ccb8441.asset using Guid(2ed5e120c8e9da442b287aa6bc5b98e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a6ec87a310442f0381a7a186b8a650b9') in 0.020371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Materials/color (12).mat
+  artifactKey: Guid(1534e5281aa815f428e99757e6d4a25c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Materials/color (12).mat using Guid(1534e5281aa815f428e99757e6d4a25c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e044070cd653ad7d2405a9bcd5cb26b8') in 0.019485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/XR/Settings/OculusSettings.asset
+  artifactKey: Guid(147ce169e82181b4b8b246fc261c1d15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XR/Settings/OculusSettings.asset using Guid(147ce169e82181b4b8b246fc261c1d15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '37229e9438de76424ee7ca9db947f9a9') in 0.043881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/VRCDefaultWorldScene/ImageMaterial.mat
+  artifactKey: Guid(4c0f50d337d21c84face2cc05d596e10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/VRCDefaultWorldScene/ImageMaterial.mat using Guid(4c0f50d337d21c84face2cc05d596e10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e272922f03870749167006ed198b90ca') in 0.020715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Materials/color (4).mat
+  artifactKey: Guid(8092453f426ee6642a1b720f7f2f1870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Yashiro/YashiroMarkingPen_QvPen差し替え対応/Materials/color (4).mat using Guid(8092453f426ee6642a1b720f7f2f1870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '333b746226fb351f6f694cbf6bf87764') in 0.019322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UdonSharp/UtilityScripts/Synced/GlobalToggleObject.asset
+  artifactKey: Guid(96ee11c7074d21e4f84d189ad35d45fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UdonSharp/UtilityScripts/Synced/GlobalToggleObject.asset using Guid(96ee11c7074d21e4f84d189ad35d45fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '35ee9e335776163ebb92f3d64ee9d791') in 0.022231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SerializedUdonPrograms/420c34b4ed4823a52bfa768e4fd9a5d0.asset
+  artifactKey: Guid(9a4c884b8018c37498e4a3d2b439ea55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/420c34b4ed4823a52bfa768e4fd9a5d0.asset using Guid(9a4c884b8018c37498e4a3d2b439ea55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '86ddfbf5c49f609d60dcc90ec13ebe1a') in 0.017656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/QvPen/QvPen.asset
+  artifactKey: Guid(ddb506b14f437304ca2f7c8fe42b11d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/QvPen.asset using Guid(ddb506b14f437304ca2f7c8fe42b11d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bb06f040116f520394d5293a9638b208') in 0.017337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SerializedUdonPrograms/49ba99e73d9ab4349871a10f182ee457.asset
+  artifactKey: Guid(816060629c9a85045a91ae7047e233eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/49ba99e73d9ab4349871a10f182ee457.asset using Guid(816060629c9a85045a91ae7047e233eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '08fa6d6f2a1ee434bce101c40574b4da') in 0.021467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/QvPen/Runtime/UdonAsset/QvPen_Pen.asset
+  artifactKey: Guid(1064dc79ec16c944793e0bfc45718c46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonAsset/QvPen_Pen.asset using Guid(1064dc79ec16c944793e0bfc45718c46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '51efaa87556bb75afc53d21edd7e8ffb') in 0.077776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SerializedUdonPrograms/18a8a73823b22934e929c67357a4e2d7.asset
+  artifactKey: Guid(793a1a90ff912044c9fbaf9cc5ccfffb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/18a8a73823b22934e929c67357a4e2d7.asset using Guid(793a1a90ff912044c9fbaf9cc5ccfffb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '578b219cb5dfb5d42b0f72d4ab555a18') in 0.037212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/QvPen/Texture/qvpen_button.png
+  artifactKey: Guid(6ef560ae19687364c94499b0520575e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Texture/qvpen_button.png using Guid(6ef560ae19687364c94499b0520575e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '66e162d1b345f8cc4aabd237cca256ad') in 0.098113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SerializedUdonPrograms/853a35cf0f51df6498d68490a1f662e3.asset
+  artifactKey: Guid(54308d96bec4ffe419c778e6a8078ec9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/853a35cf0f51df6498d68490a1f662e3.asset using Guid(54308d96bec4ffe419c778e6a8078ec9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'be95bd11de89913ac81a8d7f280344ae') in 0.017819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/QvPen/Material/Pen/color (9).mat
+  artifactKey: Guid(885a01c79ffd5024489a1fb31f3fffb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Material/Pen/color (9).mat using Guid(885a01c79ffd5024489a1fb31f3fffb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb2985379b3d6236b50034bed943f562') in 0.018481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 865.101205 seconds.
+  path: Assets/SerializedUdonPrograms/4715e20276be3b141a6a216230cab4e9.asset
+  artifactKey: Guid(b4317ccbc60abbe4885c22650583548a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/4715e20276be3b141a6a216230cab4e9.asset using Guid(b4317ccbc60abbe4885c22650583548a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e9c65a031f0fe2c82f333df09f64f4d') in 0.025035 seconds
+Number of updated asset objects reloaded before import = 19
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.086763 seconds.
+  path: Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/80c0335f98d9b0f4da456ce13438c83c.asset
+  artifactKey: Guid(e6e7ecdb65591ec4187b4c1cdb11d7aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/80c0335f98d9b0f4da456ce13438c83c.asset using Guid(e6e7ecdb65591ec4187b4c1cdb11d7aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4141be4343cab2675d72da471e163633') in 0.023323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SerializedUdonPrograms/566cc00e27d5822449529a3785eae366.asset
+  artifactKey: Guid(510b12088dd12ed4688a8fdef4880505) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/566cc00e27d5822449529a3785eae366.asset using Guid(510b12088dd12ed4688a8fdef4880505) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3b236de0055d8212146f79bc5bd3957e') in 0.018115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SerializedUdonPrograms/8ce6e1260255f82459a7a0ae9a2433e8.asset
+  artifactKey: Guid(9783b6d7086c2d641865007488d94452) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/8ce6e1260255f82459a7a0ae9a2433e8.asset using Guid(9783b6d7086c2d641865007488d94452) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6cbce832156e8a6b5033d0c7df4bdf60') in 0.017934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SerializedUdonPrograms/62d157ce28de1064b8095c8cd096e77c.asset
+  artifactKey: Guid(55b2f740afe6f424598a72e8ca0311cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/62d157ce28de1064b8095c8cd096e77c.asset using Guid(55b2f740afe6f424598a72e8ca0311cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb9ff2de896a8c50d7a5546ac5115203') in 0.017064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SerializedUdonPrograms/d6c44a44202549f4ba7e909cd3836ac4.asset
+  artifactKey: Guid(0c2e700a33297d040bad9830aa1f9e3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/d6c44a44202549f4ba7e909cd3836ac4.asset using Guid(0c2e700a33297d040bad9830aa1f9e3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b76f77b7e64377e75b6426cfadc3ca28') in 0.024045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SerializedUdonPrograms/9e8ff5f6b1c04714982c48f0b7b6d89b.asset
+  artifactKey: Guid(9683d2df87d3720489c6f8ac5ea6e71f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/9e8ff5f6b1c04714982c48f0b7b6d89b.asset using Guid(9683d2df87d3720489c6f8ac5ea6e71f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1b447df1a4bcc337cd8a6dada6730b88') in 0.025059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SerializedUdonPrograms/3d024fda64377514ab33fa3baefec378.asset
+  artifactKey: Guid(d0a5398ee2c72534eb8f3771a034d9a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/3d024fda64377514ab33fa3baefec378.asset using Guid(d0a5398ee2c72534eb8f3771a034d9a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a211bea85e338fa8e0096fbf389186ee') in 0.023510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SerializedUdonPrograms/111a0c155a784e64fa9b6ad9244a55a4.asset
+  artifactKey: Guid(2071d823c88077b4b9c9aa77be8c9f48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/111a0c155a784e64fa9b6ad9244a55a4.asset using Guid(2071d823c88077b4b9c9aa77be8c9f48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1a87eb39820c3aa278f0119b1c563b4') in 0.022357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SerializedUdonPrograms/da113172081f2ba40b9cc46674a846d0.asset
+  artifactKey: Guid(da8f7eb73900da34c9f7a5a6fe7c052c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/da113172081f2ba40b9cc46674a846d0.asset using Guid(da8f7eb73900da34c9f7a5a6fe7c052c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0e848e7b5b2d2cac42ffe7978b991d27') in 0.020840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SerializedUdonPrograms/8732b730b248f4344a2839981e1ff9f0.asset
+  artifactKey: Guid(e1f2cdd9e4f9a7043845a21d0c3d7533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/8732b730b248f4344a2839981e1ff9f0.asset using Guid(e1f2cdd9e4f9a7043845a21d0c3d7533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '96d4c5c71d0d3d70aace40cda4086f6c') in 0.032114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SerializedUdonPrograms/abeff3e8155d8a348afd37b86a8f7ce5.asset
+  artifactKey: Guid(810c99fabf772414b80c675a7ca2d402) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/abeff3e8155d8a348afd37b86a8f7ce5.asset using Guid(810c99fabf772414b80c675a7ca2d402) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9cadbb57d345f780416552f27752f895') in 0.037976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/567020c04eb1f4b4ea28e29eded29ee3.asset
+  artifactKey: Guid(293dd59985c1d6d489fba7861df8e327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/567020c04eb1f4b4ea28e29eded29ee3.asset using Guid(293dd59985c1d6d489fba7861df8e327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ffd14b9d395cdc741ae12a30d3bd5c23') in 0.019980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/SerializedUdonPrograms/537a9445ae56dfb4090f656e40c1ac3c.asset
+  artifactKey: Guid(2806b8f8f63da1740a4198c4267b7ebd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/537a9445ae56dfb4090f656e40c1ac3c.asset using Guid(2806b8f8f63da1740a4198c4267b7ebd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '679b519233e2034932a19cb4d2baa4a2') in 0.020077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SerializedUdonPrograms/68d999abd6627d04999b5bebe2438687.asset
+  artifactKey: Guid(c50a7bd955e03474bbc4d07fd887eaa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/68d999abd6627d04999b5bebe2438687.asset using Guid(c50a7bd955e03474bbc4d07fd887eaa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '237c4f500926901499de862ea4b34794') in 0.031358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SerializedUdonPrograms/699261d683532df468f1ed17ff8c8cf1.asset
+  artifactKey: Guid(57916fdaa1a865c458c8eea7c72a2e43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/699261d683532df468f1ed17ff8c8cf1.asset using Guid(57916fdaa1a865c458c8eea7c72a2e43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9f4352d5e2f65b368edb4e5c8cb6e928') in 0.030275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SerializedUdonPrograms/41a9d71c23a31244f8caf004675494a8.asset
+  artifactKey: Guid(c9e8a1be5070e7843bbaf98ae7ae05de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/41a9d71c23a31244f8caf004675494a8.asset using Guid(c9e8a1be5070e7843bbaf98ae7ae05de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f738e00905b9c57bdcfaf068119bb3a') in 0.021739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/0133057ca1dddce45824d0aa942ebc3a.asset
+  artifactKey: Guid(8de78d8cac7936144962fb7e7e7960f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/0133057ca1dddce45824d0aa942ebc3a.asset using Guid(8de78d8cac7936144962fb7e7e7960f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0f5afbe82a588750ceba44596dcc969e') in 0.018056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+  artifactKey: Guid(1a3734f5297e4014f82fec862b94e995) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset using Guid(1a3734f5297e4014f82fec862b94e995) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0de79dcbb26de381653338212c3d788b') in 0.019186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SerializedUdonPrograms/5463afdb73b505649b857341d262468a.asset
+  artifactKey: Guid(a00a7246fb296c645a5d1d89903f3c3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/5463afdb73b505649b857341d262468a.asset using Guid(a00a7246fb296c645a5d1d89903f3c3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b173b5607a99cc1d11c41e9eea207ac1') in 0.015314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SerializedUdonPrograms/dfcb9d6121fc4084e97b5303b0054618.asset
+  artifactKey: Guid(d40ef76f1d643e34f800ed5a2dd6dc42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/dfcb9d6121fc4084e97b5303b0054618.asset using Guid(d40ef76f1d643e34f800ed5a2dd6dc42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ad8311108fe966f6f249021398e6d656') in 0.015797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SerializedUdonPrograms/acd8738ca64f5a9448dfb040d1f2e4d5.asset
+  artifactKey: Guid(219e7822f62004148a32a0b0df6b3c5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/acd8738ca64f5a9448dfb040d1f2e4d5.asset using Guid(219e7822f62004148a32a0b0df6b3c5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1009d32ce8c1d48ee2163627cbb0df1') in 0.016887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SerializedUdonPrograms/b7ea7637776f8f0479898c7532e9dd62.asset
+  artifactKey: Guid(9ab9ce8cd2f9e714dbcd993ddc3164e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/b7ea7637776f8f0479898c7532e9dd62.asset using Guid(9ab9ce8cd2f9e714dbcd993ddc3164e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f9e05c3319d22b3f104397de0c2eebb0') in 0.016461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SerializedUdonPrograms/953e2e6278cc9314f9f2913d9bc25309.asset
+  artifactKey: Guid(206105806889b984ab854eae67d079a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/953e2e6278cc9314f9f2913d9bc25309.asset using Guid(206105806889b984ab854eae67d079a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00a2231977f47085b3199d3dfb81b1c8') in 0.018573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SerializedUdonPrograms/a1125ad687f8d9f41b0da3667d153a30.asset
+  artifactKey: Guid(2ba0e23abe7e8d14ea0b9fbdc2f83194) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/a1125ad687f8d9f41b0da3667d153a30.asset using Guid(2ba0e23abe7e8d14ea0b9fbdc2f83194) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1a235bf649b96ec9a5bad73fcf18a3fe') in 0.018036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SerializedUdonPrograms/0425897519794e7478e82ab39da26473.asset
+  artifactKey: Guid(f3ef28b387dba3a48b4030578cca217b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/0425897519794e7478e82ab39da26473.asset using Guid(f3ef28b387dba3a48b4030578cca217b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '486e7333543cdb57dfb9a0143a4a5cd5') in 0.018235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SerializedUdonPrograms/1f7e9fb643472ef4d83f2ad49fe34b18.asset
+  artifactKey: Guid(a6f38e370d1dc1547ba835232dc48243) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/1f7e9fb643472ef4d83f2ad49fe34b18.asset using Guid(a6f38e370d1dc1547ba835232dc48243) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '059f1d6de5343be6464883a7d0976179') in 0.016058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SerializedUdonPrograms/7b4f4d33808345d4ca10c7267df9cc79.asset
+  artifactKey: Guid(2f92f3f4ac01fdf48b088a38bc08c729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/7b4f4d33808345d4ca10c7267df9cc79.asset using Guid(2f92f3f4ac01fdf48b088a38bc08c729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ed900c53f2438aa1421c175310720c0') in 0.020432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SerializedUdonPrograms/a7250c474046ad245ac64456f76800ca.asset
+  artifactKey: Guid(2a7957fe9174230449973c54fd5446ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/a7250c474046ad245ac64456f76800ca.asset using Guid(2a7957fe9174230449973c54fd5446ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0e84ffb569880409067c6be87b2fd92b') in 0.016425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SerializedUdonPrograms/0cdbe440b5093a34ab779ba6bdf1ec95.asset
+  artifactKey: Guid(677ca960173a9d6408854da86654d17d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/0cdbe440b5093a34ab779ba6bdf1ec95.asset using Guid(677ca960173a9d6408854da86654d17d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f9457873692c33b8f29394be1d090c1b') in 0.019917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SerializedUdonPrograms/1acedb947e4c9dc4d8f749557d611c1e.asset
+  artifactKey: Guid(a32c40e2f7958e6469ba537e2f435c6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/1acedb947e4c9dc4d8f749557d611c1e.asset using Guid(a32c40e2f7958e6469ba537e2f435c6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '964e47048ba3bd5fb245381a9da6a861') in 0.022318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SerializedUdonPrograms/3c80009208a7ca74dafc3eb14911302a.asset
+  artifactKey: Guid(1b559fd105a87db439cc4d0e82d9c1f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/3c80009208a7ca74dafc3eb14911302a.asset using Guid(1b559fd105a87db439cc4d0e82d9c1f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f3597b0b702aeb06f26ab2f313a2124b') in 0.020260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SerializedUdonPrograms/771aad74830040442b95061a42f772c0.asset
+  artifactKey: Guid(d3f957dae887db44984ed73f2a0810b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/771aad74830040442b95061a42f772c0.asset using Guid(d3f957dae887db44984ed73f2a0810b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9db7f54b573251a2e4bdcf7838b4b0da') in 0.016160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SerializedUdonPrograms/3053cc98f03a13041a10e0650d9b6e24.asset
+  artifactKey: Guid(a924e8a7f103eab4e84715e2a69bde00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/3053cc98f03a13041a10e0650d9b6e24.asset using Guid(a924e8a7f103eab4e84715e2a69bde00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cabd0d354eba3d0ed1709cec141cd383') in 0.018284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SerializedUdonPrograms/75f3b7bb830f4324a8b2f49814f3493a.asset
+  artifactKey: Guid(cebfa64cbcf188546a2b05efc2db822b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/75f3b7bb830f4324a8b2f49814f3493a.asset using Guid(cebfa64cbcf188546a2b05efc2db822b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ee117eb8ec9cfaa01b985df55dce9fad') in 0.022285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/SerializedUdonPrograms/4a72cd5e73d44e94a832b9fa2b41021d.asset
+  artifactKey: Guid(aa3b3e66efe616343b069ada9a1a4707) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/4a72cd5e73d44e94a832b9fa2b41021d.asset using Guid(aa3b3e66efe616343b069ada9a1a4707) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '86faa0cd21758b353de586b25fc42757') in 0.019691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/80df79815ac3b494592c5da022afd2cf.asset
+  artifactKey: Guid(29925a6a6b005634883008ef9d333613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/80df79815ac3b494592c5da022afd2cf.asset using Guid(29925a6a6b005634883008ef9d333613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '574181def99864e6d18c7dbf2516ede8') in 0.020362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/SerializedUdonPrograms/8270e0cc07fd6e64bac140ed72458ab5.asset
+  artifactKey: Guid(089f3bd551dcc234d9c0eb9300d91f4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/8270e0cc07fd6e64bac140ed72458ab5.asset using Guid(089f3bd551dcc234d9c0eb9300d91f4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c65a20879e0a42176233ef19e57d5a6b') in 0.020765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SerializedUdonPrograms/928d61d6f43197548824342ff0a97bb0.asset
+  artifactKey: Guid(4e65d5e322175684783779af19a11322) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/928d61d6f43197548824342ff0a97bb0.asset using Guid(4e65d5e322175684783779af19a11322) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'acb3ced5bf7f3eec9d75e3a3f0195dfe') in 0.024248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SerializedUdonPrograms/6657daa4973ee1249aae293810e8bccd.asset
+  artifactKey: Guid(3f73cfc91f3570c498b14fbaf47ebf5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/6657daa4973ee1249aae293810e8bccd.asset using Guid(3f73cfc91f3570c498b14fbaf47ebf5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '96772a65d5174fb81f8dabf0449deeb4') in 0.024853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/SerializedUdonPrograms/6fe72b5b63aa74c4090ff2ea53c6dcbb.asset
+  artifactKey: Guid(5f98c4d51f58ecd4f9bdfab13e6626ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/6fe72b5b63aa74c4090ff2ea53c6dcbb.asset using Guid(5f98c4d51f58ecd4f9bdfab13e6626ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '140e9a103804eadd7c96b567f8fa919e') in 0.025389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/0e392fac37a423e48980418023eb111f.asset
+  artifactKey: Guid(8fb6eb914fd1e984db90436d55aab47c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/0e392fac37a423e48980418023eb111f.asset using Guid(8fb6eb914fd1e984db90436d55aab47c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7969f9ef2fc953a014de06c7fb184d36') in 0.017672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SerializedUdonPrograms/b13a70617e66db945a50a1d87245e420.asset
+  artifactKey: Guid(4cc0fbc7b38da284aa1739ae2a39defb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/b13a70617e66db945a50a1d87245e420.asset using Guid(4cc0fbc7b38da284aa1739ae2a39defb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '284ec7b2580d5f3560564229297686c2') in 0.021080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SerializedUdonPrograms/a3b924aa5d416d94c86ddd019ccb8441.asset
+  artifactKey: Guid(2ed5e120c8e9da442b287aa6bc5b98e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/a3b924aa5d416d94c86ddd019ccb8441.asset using Guid(2ed5e120c8e9da442b287aa6bc5b98e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1b6de84f2cb63cd9540281a411d2847a') in 0.019893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SerializedUdonPrograms/56c9dab68551e064aab97afc35022a80.asset
+  artifactKey: Guid(cc1d2bb653729a6418db12b560394714) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/56c9dab68551e064aab97afc35022a80.asset using Guid(cc1d2bb653729a6418db12b560394714) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '326c237a7d57ce437837d455af4c070c') in 0.018217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SerializedUdonPrograms/667c46fd2864a124ea921d98d4914fe5.asset
+  artifactKey: Guid(08974cbc2cb84cf459b7308389b2095e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/667c46fd2864a124ea921d98d4914fe5.asset using Guid(08974cbc2cb84cf459b7308389b2095e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ecbcc39764343cd909df50c80aea37f4') in 0.017631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/e24c19eb034a4054b96ad3a9240d8283.asset
+  artifactKey: Guid(969f4fbbc8fa7b94eb75d889364e4e25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/e24c19eb034a4054b96ad3a9240d8283.asset using Guid(969f4fbbc8fa7b94eb75d889364e4e25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c129ba9a9e04ed12bfd951999c7736fb') in 0.019460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/SerializedUdonPrograms/881a0c155a784e64fa9b6ad924ea55a5.asset
+  artifactKey: Guid(66d19755898e159498a20debbe2952d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/881a0c155a784e64fa9b6ad924ea55a5.asset using Guid(66d19755898e159498a20debbe2952d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '01a33e2c165b5be22a22cff66a64f030') in 0.019704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SerializedUdonPrograms/420c34b4ed4823a52bfa768e4fd9a5d0.asset
+  artifactKey: Guid(9a4c884b8018c37498e4a3d2b439ea55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/420c34b4ed4823a52bfa768e4fd9a5d0.asset using Guid(9a4c884b8018c37498e4a3d2b439ea55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '25c141b6527f610aef30eff3367171ed') in 0.017765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SerializedUdonPrograms/3c3f68f50baf1124683ae6f8bc4d04a2.asset
+  artifactKey: Guid(b5955c146fb556d459e1530ad9d72515) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/3c3f68f50baf1124683ae6f8bc4d04a2.asset using Guid(b5955c146fb556d459e1530ad9d72515) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0b13cc1f15ff36a30e0c9c3723e269ce') in 0.018888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SerializedUdonPrograms/49ba99e73d9ab4349871a10f182ee457.asset
+  artifactKey: Guid(816060629c9a85045a91ae7047e233eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/49ba99e73d9ab4349871a10f182ee457.asset using Guid(816060629c9a85045a91ae7047e233eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '93e4495eb82ef792fdb645db11d9541f') in 0.017596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SerializedUdonPrograms/f12c30c64b547ed4e9e5b1c66489eea1.asset
+  artifactKey: Guid(e06bf0fc31efb5840818f1665ae9950c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/f12c30c64b547ed4e9e5b1c66489eea1.asset using Guid(e06bf0fc31efb5840818f1665ae9950c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c38095a1df0ea97db3b8d3ae0e17deb') in 0.022403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SerializedUdonPrograms/9d916a2228b78c646aa46fe3ba85879d.asset
+  artifactKey: Guid(1ab0a59eea972ff4890d7679f6c9bab1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/9d916a2228b78c646aa46fe3ba85879d.asset using Guid(1ab0a59eea972ff4890d7679f6c9bab1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8bb6e89e10b22d3781201b9b5d6818ad') in 0.023037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SerializedUdonPrograms/18a8a73823b22934e929c67357a4e2d7.asset
+  artifactKey: Guid(793a1a90ff912044c9fbaf9cc5ccfffb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/18a8a73823b22934e929c67357a4e2d7.asset using Guid(793a1a90ff912044c9fbaf9cc5ccfffb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2f288403ebb52172b111613ab23676fe') in 0.017842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SerializedUdonPrograms/853a35cf0f51df6498d68490a1f662e3.asset
+  artifactKey: Guid(54308d96bec4ffe419c778e6a8078ec9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SerializedUdonPrograms/853a35cf0f51df6498d68490a1f662e3.asset using Guid(54308d96bec4ffe419c778e6a8078ec9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '234ccc5d381fb6e3a7dfc8be466a71f7') in 0.018586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.903 seconds
+Refreshing native plugins compatible for Editor in 53.08 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UdonSharp.Updater.UdonSharpDataLocator:InitializeUdonSharpData () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:75)
+UdonSharp.Updater.UdonSharpDataLocator:get_DataPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:44)
+UdonSharp.Updater.UdonSharpLocator:get_SettingsPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpLocator.cs:49)
+UdonSharpEditor.UdonSharpSettings:GetSettings () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:87)
+UdonSharpEditor.UdonSharpSettings:GetScannerBlacklist () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:160)
+UdonSharpEditor.UdonSharpSettings:FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1<string>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:182)
+UdonSharp.Compiler.CompilationContext:GetAllFilteredSourcePaths (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:212)
+UdonSharp.Compiler.CompilationContext:GetAllFilteredScripts (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:228)
+UdonSharp.UdonSharpProgramAsset:IsAnyScriptDirty () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:256)
+UdonSharp.UdonSharpProgramAsset:CompileAllCsPrograms (bool,bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:292)
+UdonSharpEditor.UdonSharpEditorManager:UpgradeAssetsIfNeeded () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:868)
+UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1689)
+UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs line 75]
+
+UnityException: Creating asset at path Assets/UdonSharp/UdonSharpDataLocator.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UdonSharp.Updater.UdonSharpDataLocator.InitializeUdonSharpData () [0x0005d] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:75 
+  at UdonSharp.Updater.UdonSharpDataLocator.get_DataPath () [0x00065] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:44 
+  at UdonSharp.Updater.UdonSharpLocator.get_SettingsPath () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpLocator.cs:49 
+  at UdonSharpEditor.UdonSharpSettings.GetSettings () [0x00012] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:87 
+  at UdonSharpEditor.UdonSharpSettings.GetScannerBlacklist () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:160 
+  at UdonSharpEditor.UdonSharpSettings.FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1[T] paths) [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:182 
+  at UdonSharp.Compiler.CompilationContext.GetAllFilteredSourcePaths (System.Boolean isEditorBuild) [0x0006a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:212 
+  at UdonSharp.Compiler.CompilationContext.GetAllFilteredScripts (System.Boolean isEditorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:228 
+  at UdonSharp.UdonSharpProgramAsset.IsAnyScriptDirty () [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:256 
+  at UdonSharp.UdonSharpProgramAsset.CompileAllCsPrograms (System.Boolean forceCompile, System.Boolean editorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:292 
+  at UdonSharpEditor.UdonSharpEditorManager.UpgradeAssetsIfNeeded () [0x00056] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorManager.cs:868 
+  at UdonSharpEditor.UdonSharpEditorManager.RunAllUpgrades () [0x00009] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorManager.cs:1689 
+  at UdonSharpEditor.UdonSharpEditorManager.RunPostAssemblyBuildRefresh () [0x0000a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorManager.cs:132 
+  at UnityEditor.AssemblyReloadEvents.OnAfterAssemblyReload () [0x00017] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+
+(Filename: ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs Line: 75)
+
+- Finished resetting the current domain, in  8.554 seconds
+Domain Reload Profiling: 10450ms
+	BeginReloadAssembly (581ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (313ms)
+	RebuildCommonClasses (107ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (101ms)
+	LoadAllAssembliesAndSetupDomain (1082ms)
+		LoadAssemblies (1175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (8555ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5125ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (3117ms)
+			ProcessInitializeOnLoadMethodAttributes (1860ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 54.43 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.40 ms.
+Unloading 3487 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 170 unused Assets / (11.9 MB). Loaded Objects now: 4207.
+Memory consumption went from 194.7 MB to 182.8 MB.
+Total: 40.926000 ms (FindLiveObjects: 0.365400 ms CreateObjectMapping: 0.207800 ms MarkObjects: 30.536300 ms  DeleteObjects: 9.814400 ms)
+
+Prepare: number of updated asset objects reloaded= 3
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 54.951112 seconds.
+  path: Packages/com.llealloo.audiolink/package.json
+  artifactKey: Guid(8ae339e6513c9cf4e99f947c1cccb278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.llealloo.audiolink/package.json using Guid(8ae339e6513c9cf4e99f947c1cccb278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65112c669cb3bb05e3938119c6095b43') in 0.035576 seconds
+Number of updated asset objects reloaded before import = 5
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 43.872098 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(18ad9650ccbfa514599392d9176f25a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(18ad9650ccbfa514599392d9176f25a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e567176896b0787f85d5c85211c477') in 0.000697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.355029 seconds.
+  path: Assets/Scenes/VRCDefaultWorldScene
+  artifactKey: Guid(2e31c22ebffb62442b4ad6e33aa13250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VRCDefaultWorldScene using Guid(2e31c22ebffb62442b4ad6e33aa13250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdef418324186966565d922295517a26') in 0.001614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.074692 seconds.
+  path: Assets/Scenes/VRCDefaultWorldScene/GridFloor_udon.mat
+  artifactKey: Guid(3e2fefc468e848f4b9b05c1f848ef3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VRCDefaultWorldScene/GridFloor_udon.mat using Guid(3e2fefc468e848f4b9b05c1f848ef3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3363dc7399775adcc4113803cd0032') in 0.096329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.024560 seconds.
+  path: Assets/Scenes/VRCDefaultWorldScene/SampleAssets_matte.mat
+  artifactKey: Guid(537e0a6fc6471444bb8d608d0dd9bcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VRCDefaultWorldScene/SampleAssets_matte.mat using Guid(537e0a6fc6471444bb8d608d0dd9bcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217e86c949874d20c092553247449332') in 0.386240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 111.508926 seconds.
+  path: Assets/UdonSharp/UtilityScripts/InteractToggle.asset
+  artifactKey: Guid(75f3b7bb830f4324a8b2f49814f3493a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UdonSharp/UtilityScripts/InteractToggle.asset using Guid(75f3b7bb830f4324a8b2f49814f3493a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dd17e0903f6dcbf2178ab6ef29fd48') in 0.001632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/UdonSharp/UtilityScripts/TrackingDataFollower.asset
+  artifactKey: Guid(5463afdb73b505649b857341d262468a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UdonSharp/UtilityScripts/TrackingDataFollower.asset using Guid(5463afdb73b505649b857341d262468a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99767f86d0e14c92713fe3ddac991d2e') in 0.001447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.494623 seconds.
+  path: Assets/QvPen/QvPen.asset
+  artifactKey: Guid(ddb506b14f437304ca2f7c8fe42b11d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QvPen/QvPen.asset using Guid(ddb506b14f437304ca2f7c8fe42b11d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987082fbed842b18ecc8ca748602f784') in 0.000919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007188 seconds.
+  path: Assets/QvPen/QvPen(grad).prefab
+  artifactKey: Guid(5bca603d49548cc4d9a3329a36716749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QvPen/QvPen(grad).prefab using Guid(5bca603d49548cc4d9a3329a36716749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38a431dfdc8d91412ce715081433e5d') in 0.483944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3503
+========================================================================
+Received Import Request.
+  Time since last request: 27.587149 seconds.
+  path: Assets/VirtualFoxDesignStudio/Lura'sSwitch(Udon)/PREFAB/Bed_WithSwitch.prefab
+  artifactKey: Guid(852d613b341ef1f49a381550abf0e478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VirtualFoxDesignStudio/Lura'sSwitch(Udon)/PREFAB/Bed_WithSwitch.prefab using Guid(852d613b341ef1f49a381550abf0e478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5611c5ae4b6200b527585beadab0613') in 0.637728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/VirtualFoxDesignStudio/Lura'sSwitch(Udon)/PREFAB/Chair_WithSwitch.prefab
+  artifactKey: Guid(2b03d07c404e4dd48bb47b62c497591e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VirtualFoxDesignStudio/Lura'sSwitch(Udon)/PREFAB/Chair_WithSwitch.prefab using Guid(2b03d07c404e4dd48bb47b62c497591e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249d639efa1ded671eb0c12d68bc1f9f') in 0.036138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 105
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/VirtualFoxDesignStudio/Lura'sSwitch(Udon)/PREFAB/Switch_WithVideo_Global Variant.prefab
+  artifactKey: Guid(30997ee807097f445baaf70417f341cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VirtualFoxDesignStudio/Lura'sSwitch(Udon)/PREFAB/Switch_WithVideo_Global Variant.prefab using Guid(30997ee807097f445baaf70417f341cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33eee1028d6039c7fe34072ca01d548e') in 0.036576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: �X���b�h�̏I���܂��̓A�v���P�[�V�����̗v���ɂ���āAI/O �����͒��~����܂����B
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
